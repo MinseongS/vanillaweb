@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css">
+    <title>Speech text reader</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Speech Text Reader</h1>
+        <button id="toggle-button" >Toggle Text Box</button>
+    </div>
+    <div id="text-box" class="text-box">
+        <div class="title-line">
+            <h3>Choose Voice</h3>
+            <div id="close" class="close">X</div>
+        </div>
+        <select id="select" class="select"></select>
+        <textarea id="textarea" class="textarea" placeholder="문장을 입력해주세요."></textarea>
+        <button id="read-text" class="read-text">Read Text</button>
+    </div>
+    <div id="image-list" class="image-list"></div>
+    <script src="script.js"></script>
+</body>
+</html>
