@@ -7,6 +7,33 @@
     <title>Memory Cards</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="title-line">
+            <h1>Memory Cards</h1>
+            <button id="add" class="add">➕ Add New Card</button>
+        </div>
+        <div id="card-container" class="card-container">
+        </div>
+        <div id="pagination" class="pagination">
+            <button id="left" class="pageBtn">◀︎</button>
+            <p id="page" class="page"></p>
+            <button id="right" class="pageBtn">▶︎</button>
+        </div>
+        <button id="delete" class="delete">🗑 Clear Cards</button>
+    </div>
+    <div id="add-card-dialog" class="add-container">
+        <div class="title-line">
+            <h1>Add New Card</h1>
+            <button id="close" class="close">✕</button>
+        </div>
+        <div class="textbox">Question
+            <textarea id="question" class="textarea" placeholder="Enter question..."></textarea>
+        </div>
+        <div class="textbox">Answer
+            <textarea id="answer" class="textarea" placeholder="Enter answer..."></textarea>
+        </div>
+        <button id="add-card">➕ Add Card</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
