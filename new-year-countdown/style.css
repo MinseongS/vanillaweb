@@ -1,0 +1,49 @@
+body {
+    width : 100vw;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80');
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color : white;
+    font-size: 60px;
+}
+
+.countdown {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.time{
+    font-size: 50px;
+}
+
+.container {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#year {
+    font-size: 200px;
+    color: white;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 20px;
+}

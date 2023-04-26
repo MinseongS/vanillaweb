@@ -1,0 +1,49 @@
+body {
+    background-color: #0095dd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rule-button {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+button { 
+    cursor: pointer;
+    border: 0;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.rule {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #333;
+    color: #fff;
+    min-height: 100vh;
+    width: 300px;
+    padding: 20px;
+    transform: translateX(-100%);
+    transition: transform 1s;
+}
+
+.rule.show{
+    transform: translateX(0%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+}
+
+#canvas {
+    background-color: #f0f0f0;
+}
