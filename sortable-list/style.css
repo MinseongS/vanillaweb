@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    background-color: #c3c7ca;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.table {
+    padding: 0;
+    border: 1px solid #e3e5e4;
+}
+
+.item {
+    display: flex;
+    padding: 0;
+    border-bottom: 1px solid #e3e5e4;
+}
+
+.number {
+    background-color: #c3c7ca;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    height: 60px;
+    width: 60px;
+}
+
+.draggable {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    flex: 1;
+}
+
+.name {
+    margin-right: 2rem;
+}
+
+.dragging {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.over {
+    background-color: #eaeaea;
+}
+
+.correct {
+    color: green;
+}
+
+.different {
+    color: red;
+}
+

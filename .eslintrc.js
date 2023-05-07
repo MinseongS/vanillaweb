@@ -14,7 +14,6 @@ module.exports = {
         argsIgnorePattern: "_", // 사용하지 않는 인수명 언더스코어 허용
       },
     ],
-    "no-param-reassign": ["error"], // param 재정의 불가
     "prettier/prettier": [
       "error",
       {

@@ -1,0 +1,47 @@
+body {
+    width : 100vw;
+    height: 100vh;
+    background-image: url("img/bg.jpg");
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: white;
+}
+
+.speech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.speech div {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.box {
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 20px;
+}
